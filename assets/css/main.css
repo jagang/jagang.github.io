@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #1ABC9C;
     font-family: "Raleway";
     font-weight: 300;
     font-size: 16px;
@@ -14,7 +14,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #333;
+    color: white;
 }
 
 
@@ -97,13 +97,13 @@ a:after {
 	By default, top navigation bar uses "fixed" position
 */
 #section-topbar ul#nav {
-    background-color: burlywood;
+    background-color: #fef9e7;
 	display: inline-block;
 	position: static;
 	margin: 0;
 	padding: 0;
 
-	border-right: 1px solid #222;
+/*	border-right: 1px solid #222;*/
 
 	/* For IE, the outcast */
 	zoom:1;
@@ -126,18 +126,18 @@ a:after {
 }
 
 	#section-topbar ul#nav a:hover {
-	  background: #222;
+/*	  background: #222;*/
 	  text-decoration: none;
 /*	  border-left: 1px solid #111;*/
 	}
 
 	#section-topbar ul#nav .active a {
-		background: #44bbaa;
+/*		background: #44bbaa;*/
 /*		border-left: 1px solid #111;*/
 	}
 
 		#section-topbar ul#nav .active a:hover {
-			background: #44bbaa;
+/*			background: #44bbaa;*/
 		}
 #section-topbar i {
 	font-size: 25px;
@@ -148,7 +148,7 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/hd3.jpg) no-repeat center top;
+	background: url(../img/hd3.png) no-repeat center top;
 /*    background-color: darkslategrey;*/
 /*
 	margin-top: 60px;
@@ -218,8 +218,24 @@ a:after {
 	padding-bottom: 0px;
 }
 
+#about p{
+    color: white;
+}
+
+#resume p{
+    color: white;
+}
+
+#work time{
+    color: white;
+}
+
 #footwrap p {
 	color: white;
+}
+
+#portfolio h4{
+    color: black;
 }
 
 #footwrap h5 {
